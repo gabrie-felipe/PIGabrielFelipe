@@ -1,4 +1,5 @@
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
+import { ContatoScreen } from "../Screens/ContatoScreen";
 import { HomeScreen } from "../Screens/HomeScreen";
 import { SobreScreen } from "../Screens/SobreScreen";
 
@@ -8,6 +9,7 @@ export const RootNavigation = () => {
     <Stack.Navigator>
       <Stack.Screen name={"Home"} component={HomeScreen} />
       <Stack.Screen name={"Sobre"} component={SobreScreen} />
+    <Stack.Screen name={"Contato"} component={ContatoScreen}/>
     </Stack.Navigator>
   );
 };
