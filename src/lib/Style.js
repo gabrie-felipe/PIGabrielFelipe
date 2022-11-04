@@ -5,9 +5,27 @@ export const style = StyleSheet.create({
     flex: 1,
     justifyContent: "center",
     alignItems: "center",
+    backgroundColor: "orange",
   },
-  h1: {
+  home: {
     fontSize: "36px",
     fontWeight: "bold",
+    backgroundColor: "orange",
   },
+  botao: {
+    marginTop: "10px",
+   backgroundColor: "black",
+  },
+  titulo: {
+fontFamily: "sansserif",
+fontSize: "30px",
+
+  },
+  box: {
+    color: "red",
+    width: "300px",
+  },
+  add: {
+    marginTop: "20px"
+  }
 });
